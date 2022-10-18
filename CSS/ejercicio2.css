@@ -1,0 +1,134 @@
+/* Imagen fondo*/
+body{
+    font-family: Georgia, "Times New Roma";
+    font-size: 20px;
+    background-image: url(../images/background-pattern.png);
+
+}
+
+/*Navegacion Principal*/
+body header nav:first-child{
+    background-color: rgb(30, 50, 66);
+    text-align: right;
+    padding-left: .5em;
+}
+
+/*Navegacion Secundaria*/
+ body header nav:nth-child{
+    background-color: rgb(220, 232, 237);
+    padding-left: .5em;
+}
+
+/*Titulo Principal*/
+h1{
+    background-image: url(../images/header-background.png);
+    color: rgb(255, 255, 255);
+
+}
+
+/*Alinear imagen*/
+h1 img{
+margin: auto;
+}
+
+/*Imagen Principal*/
+article div:first-child{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.5em;
+    margin: auto;
+}
+
+/*  Borde Imagen*/
+article div img{
+    padding: 0.25em;
+    border: solid 1.5px rgb(167, 171, 173);
+    justify-content: center;
+}
+
+/*Títulos Secundarios*/
+h3{
+    color:rgb(255, 255, 255);
+    background-image: url(../images/header-background.png);
+    padding: 0.5em;
+    margin: 0 4em 0 4em;
+}
+
+/* Informacion de las secciones */
+article section p{
+    background-color:rgb(255, 255, 255);
+    margin: 0 4em 0 4em;
+    padding: 0.5em;
+}
+
+/*Footer*/
+footer{
+    background-color: rgb(33, 54, 66);
+    color: rgb(255, 255, 255);
+    margin: 2em 5em 2em 5em;
+    padding: 0.5em;
+}
+
+/*Estilos de navegación*/
+div ul li{
+    margin: 0 0 0.5em 0;
+    list-style: none;
+    display: inline;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 0 0.5em 0;
+}
+
+/*Secciones y figuras*/
+article section figure{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 4em 1em 4em;
+    padding: 0.5em;
+
+}
+
+article section div ul{
+    background-color: rgb(33, 54, 66);
+    margin: 0 5em 1em 4em;
+    padding: 0.4em;
+}
+
+/*Estilo cuando le das click*/
+a:hover{
+    color:rgb(0, 0, 0);
+}
+
+/*Imagen email*/
+a[href^="mailto"] {
+    background: url(../images/email.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+/*Imagen edit*/
+ section li a[href^="#E"] {
+    background: url(../images/edit.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+/*Imagen bandera*/
+ section li a[href^="#F"] {
+    background: url(../images/flag.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+/*Fondo imagenes*/
+article section div ul li{
+    background-color:  rgb(223, 232, 237);
+    border-radius: 0.1em;
+    padding: 0.1em;
+}
+
+p em{
+    font-size: 0.875rem;
+    color: #728b96;
+
+}
